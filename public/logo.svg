@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="#B3512E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 漏斗：顶层椭圆 + 收窄侧壁 + 出口 -->
+  <ellipse cx="16" cy="7.5" rx="11" ry="3.2"/>
+  <path d="M5 7.5 L12.5 17.5"/>
+  <path d="M27 7.5 L19.5 17.5"/>
+  <path d="M12.5 17.5 L12.5 22"/>
+  <path d="M19.5 17.5 L19.5 22"/>
+  <!-- 翻开的书页 -->
+  <path d="M4 24.5 C8 22.8, 12 22.8, 16 24.8 C20 22.8, 24 22.8, 28 24.5"/>
+  <path d="M4 24.5 L4 27 C8 25.3, 12 25.3, 16 27.3 C20 25.3, 24 25.3, 28 27 L28 24.5"/>
+  <path d="M16 24.8 L16 27.3"/>
+</svg>

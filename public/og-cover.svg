@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">搜推算法知识库 · Search &amp; Rec Field Guide</title>
+  <desc id="desc">暖纸背景上的搜索推荐漏斗，右侧配有六枚篇章色标记。</desc>
+  <defs>
+    <style>
+      .serif{font-family:'Noto Serif SC','Songti SC',serif}.sans{font-family:'Noto Sans SC','PingFang SC',sans-serif}.mono{font-family:'JetBrains Mono',monospace}
+      .line{fill:none;stroke:#9A6346;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#FAF6EF"/>
+  <path d="M64 62H1136M64 552H1136" stroke="#E4DACA"/>
+  <text x="72" y="116" class="mono" font-size="14" letter-spacing="3" fill="#8C8272">SEARCH &amp; REC FIELD GUIDE</text>
+  <text x="72" y="202" class="serif" font-size="52" font-weight="700" fill="#2C2620">搜推算法知识库</text>
+  <text x="72" y="256" class="sans" font-size="23" fill="#57503F">写给分发负责人的算法实战手册</text>
+  <text x="72" y="320" class="sans" font-size="19" fill="#8C8272">6 个篇章 · 34 个小节 · 50 幅架构图示</text>
+  <g transform="translate(760 84)">
+    <path class="line" d="M26 70L154 360M374 70L246 360M78 176L164 365M322 176L236 365M128 270L184 372M272 270L216 372"/>
+    <ellipse class="line" cx="200" cy="70" rx="174" ry="34" fill="#FAF6EF"/>
+    <ellipse class="line" cx="200" cy="176" rx="122" ry="25" fill="#FAF6EF"/>
+    <ellipse class="line" cx="200" cy="270" rx="73" ry="18" fill="#FAF6EF"/>
+    <ellipse class="line" cx="200" cy="360" rx="28" ry="9" fill="#FAF6EF"/>
+    <g stroke="#57503F" stroke-width="1.2">
+      <circle cx="180" cy="22" r="8" fill="#B0503C"/><circle cx="160" cy="48" r="8" fill="#B08A2E"/>
+      <circle cx="205" cy="93" r="8" fill="#71803F"/><circle cx="230" cy="128" r="8" fill="#4E7A72"/>
+      <circle cx="180" cy="159" r="8" fill="#B0503C"/><circle cx="196" cy="205" r="8" fill="#B08A2E"/>
+      <circle cx="215" cy="244" r="8" fill="#71803F"/><circle cx="192" cy="298" r="8" fill="#4E7A72"/>
+    </g>
+  </g>
+  <g transform="translate(72 584)">
+    <rect width="42" height="12" rx="2" fill="#A9713A"/><rect x="52" width="42" height="12" rx="2" fill="#B0503C"/>
+    <rect x="104" width="42" height="12" rx="2" fill="#B08A2E"/><rect x="156" width="42" height="12" rx="2" fill="#71803F"/>
+    <rect x="208" width="42" height="12" rx="2" fill="#4E7A72"/><rect x="260" width="42" height="12" rx="2" fill="#6E6257"/>
+  </g>
+  <text x="1130" y="596" text-anchor="end" class="mono" font-size="14" fill="#8C8272">v2026.09</text>
+</svg>

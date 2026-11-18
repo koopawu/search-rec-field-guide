@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">搜推漏斗与摊开的手册</title>
+  <desc id="desc">暖纸背景上的四层工程漏斗，彩色小球逐层筛选，下方是一本摊开的手册。</desc>
+  <defs>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="2" seed="19" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="gray"/>
+      <feComponentTransfer in="gray" result="soft"><feFuncA type="linear" slope="0.045"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="soft" mode="multiply"/>
+    </filter>
+    <style>
+      .line{fill:none;stroke:#9A6346;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+      .construction{fill:none;stroke:#CFC2AD;stroke-width:1.5;stroke-dasharray:7 8}
+      .page{fill:#FFFDF9;stroke:#57503F;stroke-width:1.8}
+      .rule{stroke:#DCD1BF;stroke-width:1.5}
+      .dot{stroke:#57503F;stroke-width:1.4}
+    </style>
+  </defs>
+  <rect width="1600" height="1200" fill="#FAF6EF" filter="url(#paper)"/>
+  <path class="construction" d="M278 88H1322M278 88L330 858M1322 88L1270 858M330 858H1270"/>
+  <g class="construction"><path d="M185 230h20m-10-10v20M1335 110h20m-10-10v20M1398 325h20m-10-10v20M245 520h20m-10-10v20M150 650h20m-10-10v20M1428 738h20m-10-10v20"/></g>
+  <g class="line">
+    <path d="M340 190L615 696M1260 190L985 696"/>
+    <ellipse cx="800" cy="190" rx="460" ry="72" fill="#FAF6EF"/>
+    <ellipse cx="800" cy="188" rx="375" ry="51"/>
+    <path d="M438 355L625 700M1162 355L975 700"/>
+    <ellipse cx="800" cy="355" rx="362" ry="58" fill="#FAF6EF"/>
+    <ellipse cx="800" cy="354" rx="294" ry="40"/>
+    <path d="M535 520L650 708M1065 520L950 708"/>
+    <ellipse cx="800" cy="520" rx="266" ry="45" fill="#FAF6EF"/>
+    <ellipse cx="800" cy="519" rx="218" ry="31"/>
+    <path d="M635 694L740 838M965 694L860 838"/>
+    <ellipse cx="800" cy="694" rx="166" ry="31" fill="#FAF6EF"/>
+    <ellipse cx="800" cy="694" rx="132" ry="21"/>
+    <ellipse cx="800" cy="839" rx="59" ry="13" fill="#FAF6EF"/>
+  </g>
+  <g>
+    <circle class="dot" cx="702" cy="70" r="11" fill="#B0503C"/><circle class="dot" cx="694" cy="94" r="10" fill="#B08A2E"/>
+    <circle class="dot" cx="690" cy="119" r="10" fill="#71803F"/><circle class="dot" cx="670" cy="142" r="9" fill="#4E7A72"/>
+    <circle class="dot" cx="645" cy="168" r="9" fill="#B0503C"/><circle class="dot" cx="617" cy="191" r="9" fill="#B08A2E"/>
+    <circle class="dot" cx="654" cy="225" r="9" fill="#71803F"/><circle class="dot" cx="693" cy="260" r="9" fill="#4E7A72"/>
+    <circle class="dot" cx="742" cy="292" r="9" fill="#B0503C"/><circle class="dot" cx="800" cy="326" r="9" fill="#B08A2E"/>
+    <circle class="dot" cx="857" cy="360" r="9" fill="#71803F"/><circle class="dot" cx="834" cy="395" r="9" fill="#4E7A72"/>
+    <circle class="dot" cx="805" cy="427" r="8" fill="#B0503C"/><circle class="dot" cx="767" cy="461" r="8" fill="#B08A2E"/>
+    <circle class="dot" cx="722" cy="493" r="8" fill="#71803F"/><circle class="dot" cx="684" cy="528" r="8" fill="#4E7A72"/>
+    <circle class="dot" cx="703" cy="560" r="8" fill="#B0503C"/><circle class="dot" cx="727" cy="594" r="8" fill="#B08A2E"/>
+    <circle class="dot" cx="754" cy="628" r="8" fill="#71803F"/><circle class="dot" cx="791" cy="662" r="8" fill="#4E7A72"/>
+    <circle class="dot" cx="822" cy="696" r="7" fill="#B0503C"/><circle class="dot" cx="820" cy="720" r="7" fill="#B08A2E"/>
+    <circle class="dot" cx="813" cy="744" r="7" fill="#71803F"/><circle class="dot" cx="798" cy="768" r="7" fill="#4E7A72"/>
+    <circle class="dot" cx="784" cy="791" r="7" fill="#B0503C"/><circle class="dot" cx="774" cy="816" r="7" fill="#B08A2E"/>
+  </g>
+  <g>
+    <path class="page" d="M800 949C650 900 460 875 280 846V1182C465 1150 642 1160 800 1200Z"/>
+    <path class="page" d="M800 949C950 900 1140 875 1320 846V1182C1135 1150 958 1160 800 1200Z"/>
+    <path class="line" d="M800 949V1200"/>
+    <g class="rule">
+      <path d="M372 946L742 1004M372 980L742 1038M372 1014L742 1072M372 1080L742 1138M372 1114L742 1172"/>
+      <path d="M858 1004L1228 946M858 1038L1228 980M858 1072L1228 1014M858 1138L1228 1080M858 1172L1228 1114"/>
+    </g>
+    <g class="line"><path d="M472 1008H610L552 1060H524Z M538 1060V1100M552 1060V1100"/></g>
+    <circle class="dot" cx="465" cy="990" r="7" fill="#71803F"/><circle class="dot" cx="507" cy="1006" r="7" fill="#B0503C"/>
+    <circle class="dot" cx="438" cy="1045" r="7" fill="#B08A2E"/><circle class="dot" cx="455" cy="1054" r="7" fill="#B0503C"/>
+    <circle class="dot" cx="742" cy="1072" r="7" fill="#4E7A72"/><circle class="dot" cx="860" cy="1008" r="7" fill="#71803F"/>
+    <circle class="dot" cx="1078" cy="1014" r="7" fill="#B0503C"/><circle class="dot" cx="1170" cy="988" r="7" fill="#4E7A72"/>
+    <circle class="dot" cx="898" cy="1095" r="7" fill="#B08A2E"/>
+  </g>
+</svg>

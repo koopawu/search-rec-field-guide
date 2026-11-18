@@ -2,7 +2,6 @@
 
 **搜推算法知识库**：写给正在向分发负责人进阶的策略产品经理，一本文图并茂的搜索与推荐算法实战手册。
 
-[![CI](https://github.com/koopawu/search-rec-field-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/koopawu/search-rec-field-guide/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ![搜推算法知识库封面](public/og-cover.svg)
@@ -44,7 +43,7 @@
 
 ```bash
 # 安装依赖
-npm ci
+npm install
 
 # 启动开发服务器（默认端口 3000）
 npm run dev
@@ -81,7 +80,6 @@ npm run lint
 │   │   └── types.ts            # 内容 Schema
 │   ├── lib/search/             # 客户端搜索索引、检索与高亮
 │   └── pages/                  # 首页、篇章页、阅读页、图示库、搜索页
-├── .github/workflows/ci.yml    # GitHub Actions 构建检查
 └── vite.config.ts
 ```
 

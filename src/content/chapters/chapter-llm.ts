@@ -9,7 +9,7 @@ import type { Chapter, Section } from '../types';
 
 export const chapterLLM: Chapter = {
   chapterId: 'ch-llm',
-  slug: 'llm_frontier',
+  slug: 'llm-frontier',
   order: 5,
   title: 'LLM 时代前沿篇',
   subtitle: '2024-2026 年搜索与推荐被同一股生成式力量重构并开始合流。本篇帮你建立「新范式的判断力」，而非追热点。',
@@ -76,7 +76,7 @@ export const llmSections: Section[] = [
   // ----------------------------------------------------------
   {
     sectionId: 'llm-01',
-    chapterSlug: 'llm_frontier',
+    chapterSlug: 'llm-frontier',
     title: '语义搜索与混合检索：RAG 时代的检索基线',
     tagline: '纯向量检索不够用，混合检索（BM25 + 向量 + RRF）已是生产基线；重排是性价比之王。',
     difficulty: 'intermediate',
@@ -263,7 +263,7 @@ export const llmSections: Section[] = [
   // ----------------------------------------------------------
   {
     sectionId: 'llm-02',
-    chapterSlug: 'llm_frontier',
+    chapterSlug: 'llm-frontier',
     title: 'RAG 与 Deep Research：从检索增强到搜索 Agent',
     tagline: 'RAG 把搜索技术栈重新发明了一遍；Deep Research 把搜索从「一次查询」变成「规划-检索-反思」的 Agent 循环。',
     difficulty: 'intermediate',
@@ -457,7 +457,7 @@ export const llmSections: Section[] = [
   // ----------------------------------------------------------
   {
     sectionId: 'llm-03',
-    chapterSlug: 'llm_frontier',
+    chapterSlug: 'llm-frontier',
     title: '生成式推荐：Semantic ID、HSTU 与 OneRec',
     tagline: '推荐从「判别式漏斗」走向「端到端生成」，Meta 证明了 Scaling Law，快手完成了工业级替代。',
     difficulty: 'advanced',
@@ -671,7 +671,7 @@ export const llmSections: Section[] = [
   // ----------------------------------------------------------
   {
     sectionId: 'llm-04',
-    chapterSlug: 'llm_frontier',
+    chapterSlug: 'llm-frontier',
     title: '搜推问一体化与 Agent 化分发',
     tagline: '搜索、推荐、问答、广告正在统一为一个生成式分发模型；分发入口正从信息流转向个人 Agent。',
     difficulty: 'advanced',
@@ -859,7 +859,7 @@ export const llmSections: Section[] = [
   // ----------------------------------------------------------
   {
     sectionId: 'llm-05',
-    chapterSlug: 'llm_frontier',
+    chapterSlug: 'llm-frontier',
     title: '成本账本与策略 PM 的能力升级',
     tagline: '成本账本已翻转——端到端不是更贵的玩具而是更便宜的重构；策略 PM 的核心正从「调特征权重」迁移到「设计奖励信号」。',
     difficulty: 'advanced',

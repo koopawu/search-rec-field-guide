@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ---- 搜推算法知识库 · 色彩系统（design.md §2） ---- */
+    --paper: #FAF6EF;
+    --surface: #FFFDF9;
+    --surface-2: #F3EDE2;
+    --ink: #2C2620;
+    --ink-2: #57503F;
+    --ink-3: #8C8272;
+    --line: #E4DACA;
+    --line-strong: #CFC2AD;
+    --accent: #B3512E;
+    --accent-deep: #93401F;
+    --accent-tint: #F6E7DC;
+    --mark: #F5E3B8;
+    --code-bg: #F0E9DC;
+    --radius: 0.625rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    letter-spacing: 0.01em;
+    /* 全站纸纹理叠层（hero-texture.svg，低对比平铺） */
+    background-image: url('/hero-texture.svg');
+    background-repeat: repeat;
+    background-size: 512px 512px;
+    background-blend-mode: multiply;
+  }
+
+  /* 文本选中：马克笔划重点感（design.md §6） */
+  ::selection {
+    background: var(--mark);
+    color: var(--ink);
+  }
+
+  /* 标点悬挂：段首引号/括号允许悬挂（design.md §3.2） */
+  p,
+  .hanging-punctuation {
+    hanging-punctuation: first allow-end;
+  }
+
+  /* 阅读正文排版基元 */
+  .prose-body {
+    font-size: 17px;
+    line-height: 1.9;
+    color: var(--ink);
+    letter-spacing: 0.01em;
+  }
+  .prose-body p + p {
+    margin-top: 1.2em;
+  }
+
+  /* 链接下划线生长微交互 */
+  .link-underline {
+    position: relative;
+    text-decoration: none;
+  }
+  .link-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .link-underline:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* 降级动效：prefers-reduced-motion 时全部降为透明度过渡 */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
